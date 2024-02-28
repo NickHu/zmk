@@ -418,6 +418,7 @@ static int pmw33xx_init(const struct device *dev) {
         return -EIO;
     }
 #endif
+    LOG_DBG("pmw33xx initialized successfully!");
 
     return 0;
 }
